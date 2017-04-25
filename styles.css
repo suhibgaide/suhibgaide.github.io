@@ -1,0 +1,1033 @@
+/*Twitter Bootstrap class override*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: inherit;
+    padding: 10px;
+    margin-top:100px;
+    box-shadow: inset 0px 2px 5px #000;
+    /*background-image: url(images/mountains-night.svg);
+    background-position: bottom;
+    background-size: 600px;
+    background-repeat: cover;
+    background-repeat: repeat-x;
+    background-blend-mode: overlay;*/
+}
+
+.navbar {
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.progress {
+    background: rgba(245, 245, 245, 1);
+    border: 0px solid rgba(245, 245, 245, 1);
+    border-radius: 11px;
+    height: 5px;
+    width: 50vw;
+    font-family: 'Raleway', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-override {
+    /*background-color: #f5f5f5;*/
+    background: linear-gradient(#222, #240944);
+    padding: 25px;
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color:white;
+}
+
+#footer-header {
+  /*background-color: #E91E63;*/
+  background-color: #240944;
+  color:white;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 25px 5px 25px;
+  font-weight: 500;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 1.0em;
+  font-family: 'Raleway',sans-serif;;
+}
+
+.copyright-text {
+    font-size: 0.8em;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.social-icons-properties {
+  font-size: 1.5em;
+  margin-top:15px;
+}
+
+.social-text-properties {
+    font-size: 14px !important;
+    font-weight: 300;
+}
+
+#margin-bottom {
+    margin-bottom: 25px;
+}
+
+#margin-bottom>a {
+    text-decoration: none;
+    color:white;
+}
+
+.fa-facebook {
+    padding: 10px 15px 10px 15px;
+    background-color: #3b5998;
+    color: white;
+    border-radius: 50%;
+    cursor:pointer;
+    margin-right: 15px;
+}
+
+.fa-twitter {
+    padding: 10px;
+    background-color: #0084b4;
+    color: white;
+    border-radius: 50%;
+    cursor:pointer;
+    margin-right: 15px;
+
+}
+
+.fa-google-plus {
+  padding: 12px 10px 12px 10px;
+  background-color: #d34836;
+  color: white;
+  border-radius: 50%;
+  cursor:pointer;
+  font-size: 0.8em !important;
+  margin-right: 15px;
+}
+
+.fa-linkedin {
+    padding: 10px 12px 10px 12px;
+    background-color: #0077B5;
+    color: white;
+    border-radius: 50%;
+    cursor:pointer;
+    margin-right: 15px;
+}
+
+.hover-shadow {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.13);
+}
+
+#ch {
+  width: 85px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#spotify {
+  margin-top: 15px;
+}
+
+#soundcloud {
+  margin-top: 15px;
+}
+
+html {
+    position: relative;
+}
+
+
+/* CSS for own assets */
+
+#textlogo {
+    margin-top:-58px;
+    width: 50px;
+    fill:#F34336;
+}
+
+
+/* Top box (Jumbotron) */
+
+.box-intro {
+    height: 70vh;
+    transition: background-color 0.5s ease;
+    background-color: #F44336;
+    background-image: url(images/mountains.svg), linear-gradient(#F44336, #673AB7);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: repeat-x;
+    z-index: -10;
+    overflow-x: hidden;
+    overflow: hidden;
+    padding-right: 0px;
+    padding-left: 0px;
+    transition: height 0.4s ease-in-out;
+}
+
+.box-intro-header {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10vh;
+    color: white;
+    transition: margin-top 0.4s ease-in-out;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 4.2em;
+    /*letter-spacing: 3px;*/
+    animation: fadeIn 1s ease-in-out;
+}
+
+.box-intro-subtitle {
+    font-size: 1.5em;
+    animation: fadeIn 1s ease-in-out;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.semiCircle1 {
+    width: 650px;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: -5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    transform-origin: bottom center;
+    transform-style: preserve-3d;
+    transition: transform 1s ease-in-out;
+}
+
+
+/* Section section (The Square button) */
+
+#square {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    transition: transform 0.4s ease-in-out;
+    transform-origin: center center;
+    transform-style: preserve-3d;
+    z-index: 10;
+    animation: rotateLeft 1s ease-in-out, rotateRight 1s ease-in-out;
+    animation-delay: 1s;
+}
+
+.box-square-button {
+    background-color: white;
+    z-index: 10;
+}
+
+
+/* Section - Who I Am*/
+
+#who-i-am {
+    margin-top: 50px;
+}
+
+.main-content {
+    background-color: white;
+    z-index: 10;
+}
+
+.about-me-section img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.border-spacing {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-content-h1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #E91E63;
+    font-size: 3.0em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.main-content-h2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #EC407A;
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+#portrait {
+    margin-top: 30px;
+    position: relative;
+}
+
+#aristotle {
+    text-decoration: none;
+    color: #333;
+}
+
+#aristotle:hover {
+    text-decoration: line-through;
+}
+
+#speech-bubble {
+    position: absolute;
+    left: 150px;
+    right: 0px;
+    top: 10px;
+    bottom: 0;
+    visibility: hidden;
+    max-width: 150px;
+}
+
+
+/* CSS pertaining to What I can do Section */
+
+#madskills {
+    margin-bottom: 80px;
+}
+
+.skillset-margin-bottom {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.skillset-box-style {
+    color: white;
+    position: relative;
+}
+
+#html-color {
+    margin-top: 20px;
+    color: #F44336;
+}
+
+#css-color {
+    margin-top: 20px;
+    color: #E91E63;
+}
+
+#js-color {
+    margin-top: 20px;
+    color: #9C27B0;
+}
+
+#with-my-skills-line {
+    position: absolute;
+    border-left: 1px solid;
+    height: 45%;
+    background-color: black;
+    width: 4px;
+    left: 50%;
+    bottom: 0;
+    opacity: 0.2;
+    margin-bottom: -5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#html-line {
+    position: absolute;
+    color: black;
+    bottom: 0;
+    top: 30%;
+    right: 0;
+    background-color: #333;
+    height: 4px;
+    width: 25%;
+    opacity: 0.2;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#css-line-left {
+    position: absolute;
+    color: black;
+    bottom: 0;
+    top: 30%;
+    left: 0;
+    background-color: #333;
+    height: 4px;
+    width: 25%;
+    opacity: 0.2;
+}
+
+#css-line-right {
+    position: absolute;
+    color: black;
+    bottom: 0;
+    top: 30%;
+    right: 0;
+    background-color: #333;
+    height: 4px;
+    width: 25%;
+    opacity: 0.2;
+}
+
+#js-logo {
+    width: 4.5em;
+}
+
+#js-line {
+    position: absolute;
+    color: black;
+    bottom: 0;
+    top: 30%;
+    left: 0;
+    background-color: #333;
+    height: 4px;
+    width: 25%;
+    opacity: 0.2;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#whaticandoforyou {
+    background: linear-gradient(#e96443, #904e95);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    position: relative;
+    overflow: hidden;
+}
+
+#sky {
+    height: 500px;
+}
+
+#ground {
+    width: 100%;
+    height: 180px;
+    max-height: 180px;
+    /*background-image: url(images/groundv2.svg);*/
+    background-position: bottom;
+    /*background-repeat: repeat-x;*/
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+}
+
+#rocket-container {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+}
+
+#rocket {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#smoke-container-1 {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+}
+
+#smoke-1 {
+    max-width: 400px;
+    max-height: 400px;
+    visibility: hidden;
+}
+
+#smoke-container-2 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+}
+
+#smoke-2 {
+    max-width: 350px;
+    max-height: 350px;
+    visibility: hidden;
+}
+
+#smoke-container-3 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#smoke-3 {
+    max-width: 300px;
+    max-height: 300px;
+    visibility: hidden;
+}
+
+#something-beautiful-p {
+    font-family: 'Satisfy', cursive;
+    font-size: 4.2em;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+#whaticandoforyou p:nth-of-type(1) {
+    margin-bottom: 20px;
+    color: white;
+}
+
+#animation-trigger {
+    /*margin-top:80px;*/
+}
+
+#circuit-img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* By the way section*/
+
+#bytheway-h1 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 15vw;
+}
+
+#enhancer {
+    position: relative;
+}
+
+#tinydroid {
+    position: absolute;
+    width: 20px;
+    top: 35%;
+    left: 48%;
+    animation: zoomIn 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+#section-responsive {
+    /*background-color: #673AB7;
+    color: white;*/
+    border-bottom: 5px solid;
+    border-bottom-color: #673AB7;
+    margin-bottom: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#section-responsive h2 {
+    /*color: white;*/
+}
+
+#section-something {
+    /*background-color: #2196F3;
+    color: white;*/
+    margin-bottom: 50px;
+    border-bottom: 5px solid #2196F3;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#section-something h2 {
+    /*color: white;*/
+}
+
+#bytheway {
+    margin-bottom: 50px;
+}
+
+
+/* Let's talk section */
+
+#message-me-button {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #E91E63;
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    border-bottom: 4px solid #C2185B;
+}
+
+#letstalk {
+  margin-bottom: 600px;
+}
+
+#message-icon {
+    top: 3px;
+}
+
+#mailme {
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+
+/* The following pertains to the paragraphs in the main content section */
+
+.main-content-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+
+/* ALL MEDIA QUERIES*/
+@media only screen and (max-width: 320px) {
+    .box-intro {
+        background-size: cover;
+    }
+    .box-intro-header {
+        font-size: 0.75em;
+    }
+    .semiCircle1 {
+        width: 400px;
+    }
+    #square {
+        width: 80px;
+    }
+    #img-placeholder {
+        max-width: 3vw;
+    }
+    #img-head {
+        max-width: 5vw;
+    }
+    .main-content-h1 {
+        font-size: 2.0em;
+    }
+    #responsive {
+        max-width: 50vw;
+    }
+
+    #section-responsive {
+        margin-bottom: 0px;
+    }
+    #something-beautiful-p {
+        font-size: 1.0em;
+    }
+
+    #letstalk {
+      margin-bottom: 1450px;
+    }
+
+    #spotify {
+      width: 210px;
+    }
+
+    footer>div>div>div {
+      margin-bottom: 50px;
+    }
+}
+
+
+/* This media query doesn't do shit. Need to remove */
+
+@media only screen and (max-width: 480px) {
+    .main-content-p {
+        width: 90vw;
+    }
+    .main-content-h1 {
+        font-size: 2.0em;
+    }
+    .about-me-section img {
+        max-width: 150px;
+    }
+
+    #img-placeholder {
+        max-width: 3vw;
+    }
+    #img-head {
+        max-width: 5vw;
+    }
+    #something-beautiful-p {
+        font-size: 2.5em;
+        width: 90%;
+    }
+
+    #letstalk {
+      margin-bottom: 1300px;
+    }
+
+    #message-me-button {
+      width: 230px;
+    }
+
+    #soundcloud {
+      width: 100%;
+    }
+
+    .social-icons-properties {
+      font-size: 1.0em;
+    }
+
+    .fa-facebook {
+      padding: 10px 13px 10px 13px;
+    }
+
+    .social-text-properties {
+      font-size: 10px !important;
+    }
+}
+
+
+/* Media Query for Screen Resolutions between 321px and 787px*/
+
+@media only screen and (max-width:767px) and (min-width:321px) {
+    .box-intro {
+        background-size: cover;
+    }
+    .box-intro-header {
+        font-size: 0.75em;
+    }
+    .semiCircle1 {
+        width: 400px;
+    }
+    #square {
+        width: 80px;
+    }
+    .main-content-p {
+        width: 90vw;
+    }
+    #responsive {
+        max-width: 50vw;
+    }
+
+    #something-beautiful-p {
+        font-size: 2.5em;
+        width: 90%;
+    }
+
+    #letstalk {
+      margin-bottom: 1250px;
+    }
+
+    #soundcloud {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+
+    .social-text-properties {
+        font-size: 0.8em !important;
+    }
+
+    #message-me-button {
+      width: 250px;
+    }
+}
+
+
+/* Media Query for Screen Resolutions between 768px and 991px*/
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .box-intro {
+        background-size: contain;
+    }
+    .box-intro-header {
+        font-size: 0.75em;
+    }
+    .semiCircle1 {
+        width: 400px;
+    }
+    #square {
+        width: 80px;
+    }
+    .main-content-p {
+        width: 80vw;
+    }
+    #responsive {
+        max-width: 30vw;
+    }
+
+    #something-beautiful-p {
+        font-size: 2.5em;
+        width: 90%;
+    }
+
+    #letstalk {
+      margin-bottom: 1250px;
+    }
+
+    #soundcloud {
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .box-intro {
+        background-size: contain;
+    }
+    .box-intro-header {
+        font-size: 0.75em;
+    }
+    .semiCircle1 {
+        width: 500px;
+    }
+    #square {
+        width: 80px;
+    }
+    #responsive {
+        max-width: 30vw;
+    }
+
+    #something-beautiful-p {
+        font-size: 2.5em;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1200px) {
+    .main-content-p {
+        width: 40vw;
+    }
+}
+
+
+/* All Animations */
+
+
+/* Cloud animation in box-intro */
+
+.cloud {
+    transform: scale(0.2);
+    position: relative;
+    left: -200px;
+}
+
+.c2 {
+    transform: scale(0.4);
+}
+
+.c3 {
+    transform: scale(0.6);
+}
+
+.c4 {
+    transform: scale(0.8);
+}
+
+.x1 {
+    -webkit-animation: animateCloud 45s linear infinite;
+    -moz-animation: animateCloud 45s linear infinite;
+    animation: animateCloud 45s linear infinite;
+}
+
+.x2 {
+    -webkit-animation: animateCloud 35s linear infinite;
+    -moz-animation: animateCloud 35s linear infinite;
+    animation: animateCloud 35s linear infinite;
+}
+
+.x3 {
+    -webkit-animation: animateCloud 25s linear infinite;
+    -moz-animation: animateCloud 25s linear infinite;
+    animation: animateCloud 25s linear infinite;
+}
+
+.x4 {
+    -webkit-animation: animateCloud 30s linear infinite;
+    -moz-animation: animateCloud 30s linear infinite;
+    animation: animateCloud 30s linear infinite;
+}
+
+@-webkit-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+
+/* Animation - Rocket Launch */
+
+@keyframes rocket_launch {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-300%);
+    }
+}
+
+@keyframes smoke_trail_1 {
+    0% {
+        transform: scale(0, 0);
+    }
+    100% {
+        transform: scale(5, 5);
+    }
+}
+
+@keyframes smoke_trail_dissipate {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* Square animation in about-me-what-i-can-do */
+
+.spinAndMoveRight {
+    width: 80px;
+    height: 80px;
+    animation: spin 2s ease-in-out, moveright 3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.spinAndMoveRight2 {
+    width: 80px;
+    height: 80px;
+    animation: spin 3s ease-in-out, moverighttwo 4s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes moveright {
+    0% {
+        margin-left: -50px;
+    }
+    100% {
+        margin-left: 50vw;
+    }
+}
+
+@keyframes moverighttwo {
+    0% {
+        margin-left: -50px;
+    }
+    100% {
+        margin-left: 40vw;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes rotateRight {
+    0% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotateLeft {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+}

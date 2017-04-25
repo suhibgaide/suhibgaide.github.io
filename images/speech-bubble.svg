@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="28.948584mm"
+   width="137.74562mm"
+   viewBox="0 0 488.07503 102.57372"
+   id="svg3989"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="speech-bubble.svg">
+  <defs
+     id="defs3995" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1543"
+     inkscape:window-height="876"
+     id="namedview3993"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.7940591"
+     inkscape:cx="247.11756"
+     inkscape:cy="64.538969"
+     inkscape:window-x="57"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <metadata
+     id="metadata3991">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     transform="translate(-102.76392,-285.38635)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     transform="translate(-102.76392,-285.38635)">
+    <path
+       style="opacity:1;fill:#fff8e1;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 64.455078 0 C 39.751322 0 19.863281 19.888041 19.863281 44.591797 C 19.863281 50.275673 20.927559 55.699035 22.849609 60.689453 L 22.429688 63.634766 L 0 102.57422 L 41.451172 85.837891 L 47.484375 85.853516 C 52.711607 87.994845 58.438912 89.183594 64.455078 89.183594 L 443.48438 89.183594 C 468.18813 89.183594 488.07422 69.295553 488.07422 44.591797 C 488.07422 19.888041 468.18813 0 443.48438 0 L 64.455078 0 z "
+       transform="translate(102.76392,285.38635)"
+       id="path4047" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     transform="translate(-102.76392,-285.38635)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4e4e4e;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="195.08833"
+       y="343.91287"
+       id="text4058"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4060"
+         x="195.08833"
+         y="343.91287">I never said that</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="44.997208mm"
+   width="203.37299mm"
+   viewBox="0 0 720.61294 159.43892"
+   id="svg3490"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="smoke.svg">
+  <defs
+     id="defs3496" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1535"
+     inkscape:window-height="876"
+     id="namedview3494"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.89702955"
+     inkscape:cx="525.95344"
+     inkscape:cy="329.94537"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3490" />
+  <metadata
+     id="metadata3492">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+     style="opacity:0.77399998;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     id="path5768"
+     cx="75.802864"
+     cy="77.735725"
+     r="75.802864" />
+  <circle
+     r="75.802864"
+     cy="78.548164"
+     cx="575.70648"
+     id="circle5770"
+     style="opacity:0.77399998;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none" />
+  <circle
+     r="75.802864"
+     cy="80.324287"
+     cx="153.08795"
+     id="circle5786"
+     style="opacity:0.85;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none" />
+  <circle
+     style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     id="circle5788"
+     cx="254.04782"
+     cy="79.870613"
+     r="75.802864" />
+  <circle
+     r="75.802864"
+     cy="83.636055"
+     cx="354.10342"
+     id="circle5790"
+     style="opacity:0.77399998;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none" />
+  <circle
+     style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+     id="circle5792"
+     cx="465.42838"
+     cy="75.802864"
+     r="75.802864" />
+  <circle
+     r="75.802864"
+     cy="82.20826"
+     cx="644.81012"
+     id="circle5790-6"
+     style="opacity:0.77399998;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none" />
+</svg>
